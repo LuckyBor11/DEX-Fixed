@@ -1237,7 +1237,10 @@ CreateGui = function()
 	NewGuiPart105.Parent = NewGuiPart1
 	NewGuiPart105.BackgroundColor3 = Color3.new(0.960784, 0.960784, 0.960784)
 	NewGuiPart105.BorderSizePixel = 0
+	NewGuiPart105.Position = UDim2.new(1, 30, 0, 0)
+	NewGuiPart105.Size = UDim2.new(0, 300, 1, 0)
 	NewGuiPart105.ZIndex = 2
+	NewGuiPart105.Visible = false
 
 	NewGuiPart106.Name = "Main"
 	NewGuiPart106.Parent = NewGuiPart105
